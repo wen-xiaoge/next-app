@@ -47,7 +47,7 @@ const Novel = () => {
                     itemLayout="vertical"
                     size="large"
                     dataSource={list}
-                    renderItem={(item) => (
+                    renderItem={(item: any) => (
                         <List.Item
                             key={item.title}
                             extra={
